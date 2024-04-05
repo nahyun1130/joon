@@ -1,0 +1,83 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'hj';
+    src: url('../font/Copyduck.ttf');
+}
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(255, 235, 180);
+    
+}
+
+.one {
+    font-family: 'hj';
+    /* color: rgb(226, 204, 3); */
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 5rem;
+    color: transparent;
+    background: linear-gradient(rgb(255, 211, 152), rgb(255, 115, 21));
+    background-clip: text;
+}
+
+div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'NanumSquareRound';
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    line-height: 300px;
+}
+h2:nth-child(1) {
+    background: rgb(255, 211, 152) url('../images/class.jpg')no-repeat center/contain;
+}
+h2:nth-child(2) {
+    background: rgb(255, 244, 184) url('../images/christmas.jpg')no-repeat center/contain;
+}
+h2:nth-child(3) {
+    background: rgb(255, 157, 128) url('../images/newyear.jpg')no-repeat center/contain;
+}
+h2:nth-child(4) {
+    background: rgb(186, 229, 229) url('../images/cut.jpg')no-repeat center/contain;
+}
+h2:nth-child(5) {
+    background: rgb(251, 212, 255) url('../images/air.jpg')no-repeat center/contain;
+}
+h2:nth-child(6) {
+    background: rgb(255, 225, 125) url('../images/macket.jpg')no-repeat center/contain;
+}
+h2:nth-child(7) {
+    background: rgb(215, 255, 233) url('../images/land.jpg')no-repeat center/contain;
+}
+h2:nth-child(8) {
+    background: rgb(219, 200, 255) url('../images/jeju.jpg')no-repeat center/contain;
+}
+h2:nth-child(9) {
+    background: rgb(255, 186, 215) url('../images/movie.jpg')no-repeat center/contain;
+}
+h2:nth-child(10) {
+    background: rgb(221, 207, 213) url('../images/pooh.jpg')no-repeat center/contain;
+}
+
+@media screen and (max-width: 450px) {
+    .one {
+        font-size: 2rem;
+    }
+    div {
+        width: 80%;
+    }
+    h2 {
+        font-size: 0.8rem;
+    }
+}
